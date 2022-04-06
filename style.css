@@ -131,3 +131,77 @@ body
   margin-left: 0.3rem;
 }
 
+._container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.7rem;
+}
+
+.text{
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  width: 468px;
+  height: 84px;
+
+}
+
+.btn_container{
+  display: flex;
+  margin-top: 1.9rem;
+  width: 468px;
+  height: 84px;
+}
+
+.left_btn{
+  display: flex;
+  width: 230px;
+  height: 50px;
+  background: var(--main-color);
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.right_btn{
+  margin-left: 1.1rem;
+  display: flex;
+  width: 230px;
+  height: 50px;
+  background: var(--main-color);
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  width: 1197px;
+  height: 503px;
+  border-radius: 1rem;
+  box-shadow: 4.94276px 4.94276px 32.1279px 2.47138px rgba(0, 0, 0, 0.15);
+}
+
+
