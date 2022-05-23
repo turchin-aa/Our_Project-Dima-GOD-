@@ -35,7 +35,7 @@ body {
     height: 468px;
 }
 
-input, textarea {
+input {
     color: #FFFFFF;
     font-size: 14px;
     background-color: #d35050;
@@ -43,12 +43,13 @@ input, textarea {
     height: 40px;
     border: 2px solid rgb(108, 25, 25);
     border-radius: 5px;
+    padding-left: 1rem;
 }
 
 input::placeholder {
     color: #FFFFFF;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 input:focus, textarea:focus {
